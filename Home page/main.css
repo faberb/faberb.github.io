@@ -1,0 +1,36 @@
+.container-fluid    {
+    background: #fff url(footballgrass.jpg) no-repeat fixed center;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#login  {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    background-color: rgba(203, 30, 226, 0.5);
+    height: 100px;
+    width: 200px;
+    justify-content: center;
+    align-items: inherit;
+    border: 2px solid rgb(4, 222, 238);
+    border-radius: 25px;
+}
+
+a, #login   {
+    transition: all .5s;
+    color: rgb(4, 222, 238);
+}
+
+a, #login:hover {
+    transform: scale(1.2);
+    transition-duration: 0.2s;
+    animation: linear;
+}
+
+a:hover {
+    color: rgb(4, 222, 238);
+}
+
